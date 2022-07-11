@@ -29,7 +29,7 @@ Additionally this project uses a (seemingly "old") convention that allows us to 
 ```
 
 ## How to use the components
-Some components you can just copy as they come. Others may rely on global styles (defined in src/routes/app.css) or stores (generally defined under $lib/stores)
+Some components you can just copy as they come. Others may rely on global styles (defined in src/routes/app.css) or stores (generally defined under $lib/stores) to work and be displayed properly 
 
 ## $lib
 Under $lib I generally add the utils, stores, components and typedefs folders.
