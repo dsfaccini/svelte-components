@@ -12,7 +12,8 @@ npx svelte-add tailwindcss
 pnpm install
 npm install --save axios
 echo "I have the impression there are smart reasons svelte uses fetch but it's just so weird and difficult to debug so I use axios"
-git add . && git commit -m "initial commit"
+git init && git add . && git commit -m "initial commit"
+npm run dev
 ```
 Additionally this project uses a (seemingly "old") convention that allows us to import components from the $lib folder (src/lib, this folder needs to be created when following these instructions instead of cloning the repo), thus avoiding the figuring out of paths. This is enabled by going into .svelte-kit/.tsconfig and adding the paths item
 
